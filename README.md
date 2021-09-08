@@ -1,8 +1,6 @@
-# gamblers-simulator
-CLI Application designed to simulate roulette gambling using martingale strategy.
+# roulette-martingale-simulator
 
-Very simple thing, my first program written in Python. 
-Its purpose was to prove to my friends that even if you use martingale strategy in roulette (doubling down when you lose, going back to original stake when you win), in the long run casino always wins, especially in games like roulette, where chances of winning are always 51.35% to 48.65% in favour of the house and return is 2 to 1 (assuming you're betting on black or red color, however with any possible bet chances are proportionally biased in casino's favour). 
-
-To use gambler's simulator simply input your deposit, initial stake, desired profit (i.e. amount of money you need to quit the casino) and optionally you can also select your lucky color (red or black) if you really think it matters. You can simulate your strategy multiple times by inputting number of iterations, so that you don't rely on a single analysis. You can also choose other option than betting on reds vs blacks - even and odd numbers; first, second or third twelve numbers; or an exact number (spoiler: it doesn't matter).
-
+Roulette martingale simulator is a simple desktop app that emulates big numbers of roulette games, in which a player tries his luck using martingale betting system.
+Martingale system is straight-forward: you double down after every loss and go back to initial bet after every win.
+While this strategy can lead to seemingly easy short term returns, it turns out that in the long run game is just as rigged in casino's favor as always (precisely: house 51.35% vs player 48.65% win probability). 
+You can try if yourself with various configurations of starting cash, bet size and exit strategy. Simulations can be repeated 
